@@ -1,0 +1,92 @@
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\LMS\Getway\
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 80000070-0012-cf00-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /demo/, verb: GET.
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 80000250-000e-cc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET.
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 800000cd-0009-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 800000cd-0009-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/host-config, request method: GET
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 80000070-0012-cf00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /demo/, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/demo/, request method: GET
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 80000250-000e-cc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/health, request method: GET
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 800003e0-0010-dc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /demo/, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 800003e0-0010-dc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /demo/, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/demo/, request method: GET
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 800003e2-0010-dc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /demo/, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 800003e2-0010-dc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /demo/, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/demo/, request method: GET
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 80000008-0027-f400-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET.
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 8000005d-0027-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 80000008-0027-f400-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/health, request method: GET
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 8000005d-0027-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/host-config, request method: GET
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 8000026e-0004-d100-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /demo/, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 8000026e-0004-d100-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /demo/, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/demo/, request method: GET
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 8000005c-001e-e400-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET.
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 8000023c-001e-ef00-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 8000005c-001e-e400-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/health, request method: GET
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 8000023c-001e-ef00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/host-config, request method: GET
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 80000176-0006-e700-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /demo/, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 80000176-0006-e700-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /demo/, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/demo/, request method: GET
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 800005ac-001a-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET.
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 800005dd-001a-f700-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 800005ac-001a-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/health, request method: GET
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 800005dd-001a-f700-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/host-config, request method: GET
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 800002cf-001c-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET.
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 800004bc-001c-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 800002cf-001c-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/health, request method: GET
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 800004bc-001c-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/host-config, request method: GET
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 80000730-002e-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET.
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 80000314-002e-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 80000730-002e-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/health, request method: GET
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 80000314-002e-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/host-config, request method: GET
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 8000023e-001e-ef00-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET.
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 8000005e-001e-e400-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 8000023e-001e-ef00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/health, request method: GET
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 8000005e-001e-e400-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/host-config, request method: GET
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 8000025e-0024-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET.
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 80000344-0022-f200-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 8000025e-0024-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/health, request method: GET
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 80000344-0022-f200-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/host-config, request method: GET
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...

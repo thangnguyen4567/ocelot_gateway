@@ -1,0 +1,58 @@
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\LMS\Getway\
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000b07-0004-f000-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000abe-0006-da00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000b07-0004-f000-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /ISAPI/Security/capabilities
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000abe-0006-da00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /ISAPI/Security/capabilities
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000b07-0004-f000-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000abe-0006-da00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000abe-0006-da00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/ISAPI/Security/capabilities
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000b07-0004-f000-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/ISAPI/Security/capabilities
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800002ac-000e-d100-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800002ac-000e-d100-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /cgi-bin/configManager.cgi
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800002ac-000e-d100-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800002ac-000e-d100-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/cgi-bin/configManager.cgi?action=getConfig&name=General
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800004c0-0008-9f00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800004c0-0008-9f00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /cgi-bin/configManager.cgi
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800004c0-0008-9f00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800004c0-0008-9f00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/cgi-bin/configManager.cgi?action=getConfig&name=General
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000116-0003-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000116-0003-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /ISAPI/Security/capabilities
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000116-0003-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000116-0003-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/ISAPI/Security/capabilities
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000725-0012-da00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000725-0012-da00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /cgi-bin/configManager.cgi
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000725-0012-da00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000725-0012-da00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/cgi-bin/configManager.cgi?action=getConfig&name=General
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...

@@ -1,0 +1,168 @@
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\LMS\Getway\
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000629-002c-f200-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000629-002c-f200-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /chat/voice
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000629-002c-f200-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000629-002c-f200-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/chat/voice
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000695-000e-e100-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000695-000e-e100-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /chat/voice
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000695-000e-e100-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000695-000e-e100-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/chat/voice
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800003a6-0010-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800003a6-0010-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /chat/process
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800003a6-0010-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800003a6-0010-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/chat/process
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000006f-002b-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000006f-002b-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /chat/process
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000006f-002b-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000006f-002b-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/chat/process
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000232-000c-e900-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000232-000c-e900-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /chat/process
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000232-000c-e900-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000232-000c-e900-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/chat/process
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000836-0002-ca00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000836-0002-ca00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /chat/process
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000836-0002-ca00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000836-0002-ca00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/chat/process
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800000cf-000e-cf00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800000cf-000e-cf00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /chat/process
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800000cf-000e-cf00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800000cf-000e-cf00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/chat/process
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000092a-000a-c600-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000092a-000a-c600-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /chat/voice
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000092a-000a-c600-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000092a-000a-c600-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/chat/voice
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800003ca-0012-ba00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800003ca-0012-ba00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /chat/voice
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800003ca-0012-ba00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800003ca-0012-ba00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/chat/voice
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800005a9-002c-f100-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800005a9-002c-f100-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /generate/goal
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800005a9-002c-f100-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800005a9-002c-f100-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/generate/goal
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800002a7-001e-e700-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800002a7-001e-e700-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /generate/goal
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800002a7-001e-e700-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800002a7-001e-e700-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/generate/goal
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000043a-0018-f100-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000043a-0018-f100-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /chat/process
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000043a-0018-f100-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000043a-0018-f100-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/chat/process
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000657-001c-f400-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000657-001c-f400-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /chat/process
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000657-001c-f400-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000657-001c-f400-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/chat/process
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800003fa-0012-ba00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800003fa-0012-ba00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /chat/process
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800003fa-0012-ba00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800003fa-0012-ba00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/chat/process
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000028d-0010-ea00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000028d-0010-ea00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /chat/voice
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000028d-0010-ea00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000028d-0010-ea00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/chat/voice
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800002fd-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800002fd-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /chat/voice
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800002fd-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800002fd-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/chat/voice
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000f7b-0028-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000f7b-0028-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /chat/process
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000f7b-0028-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000f7b-0028-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/chat/process
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800005af-0014-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800005af-0014-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /chat/process
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800005af-0014-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000649-000c-f200-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000649-000c-f200-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /chat/voice
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000649-000c-f200-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000649-000c-f200-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/chat/voice
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000064b-000c-f200-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000064b-000c-f200-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /chat/voice
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000064b-000c-f200-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000064b-000c-f200-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/chat/voice
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800005af-0014-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/chat/process
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...

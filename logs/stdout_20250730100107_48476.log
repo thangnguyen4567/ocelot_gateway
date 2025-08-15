@@ -1,0 +1,392 @@
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\LMS\Getway\
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800003c4-0010-dc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000226-001e-ef00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000048f-001c-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000226-001e-ef00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000048f-001c-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800003c4-0010-dc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000048f-001c-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000226-001e-ef00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800003c4-0010-dc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800003c4-0010-dc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000048f-001c-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000226-001e-ef00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000234-000e-cc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800001e0-000e-c100-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000234-000e-cc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800001e0-000e-c100-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000234-000e-cc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800001e0-000e-c100-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800001e0-000e-c100-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000234-000e-cc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000552-0002-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000552-0002-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000552-0002-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000552-0002-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/demo/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000381-002a-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000381-002a-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000628-002a-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000381-002a-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000628-002a-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000628-002a-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000628-002a-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000381-002a-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000056-0014-ee00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000056-0014-ee00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000056-0014-ee00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000001e-0016-e700-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000001e-0016-e700-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000001e-0016-e700-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000056-0014-ee00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000001e-0016-e700-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800001f6-0024-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800001f6-0024-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800001f6-0024-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000023e-0024-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000023e-0024-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000023e-0024-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800001f6-0024-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000023e-0024-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000006b-001b-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000006b-001b-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000006b-001b-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000408-002c-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000408-002c-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000408-002c-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000006b-001b-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000408-002c-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000554-0002-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000554-0002-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000554-0002-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000af0-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000af0-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000af0-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000554-0002-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000af0-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000247-0008-a800-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000247-0008-a800-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000247-0008-a800-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000274-0008-ae00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000274-0008-ae00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000274-0008-ae00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000247-0008-a800-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000274-0008-ae00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000383-002a-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000383-002a-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000383-002a-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000062a-002a-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000062a-002a-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000062a-002a-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000383-002a-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000062a-002a-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000062c-002a-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000062c-002a-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000062c-002a-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000385-002a-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000385-002a-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000385-002a-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000062c-002a-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000385-002a-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800003f0-0018-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800003f0-0018-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800003f0-0018-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000580-001a-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000580-001a-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000580-001a-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800003f0-0018-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000580-001a-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000491-001c-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000491-001c-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000491-001c-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000387-002a-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000387-002a-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000387-002a-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000491-001c-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000387-002a-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000041f-0026-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000041f-0026-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000041f-0026-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000043a-0026-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000043a-0026-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000043a-0026-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000041f-0026-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000043a-0026-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000018-0021-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000018-0021-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000018-0021-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000002c-0021-fa00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000002c-0021-fa00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000002c-0021-fa00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000018-0021-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000002c-0021-fa00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000059-0027-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000059-0027-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000059-0027-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000000a-0027-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000000a-0027-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000000a-0027-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000059-0027-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000000a-0027-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000002e-0021-fa00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000002e-0021-fa00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000240-0024-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000002e-0021-fa00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000240-0024-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000240-0024-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000002e-0021-fa00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000240-0024-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800004ff-0028-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800004ff-0028-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800004ff-0028-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000389-002a-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000389-002a-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000389-002a-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800004ff-0028-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000389-002a-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000501-0028-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000501-0028-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000501-0028-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000040a-002c-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000040a-002c-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000040a-002c-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000501-0028-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000040a-002c-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000040c-002c-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000040c-002c-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000040c-002c-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800003b5-002c-f000-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{**catchAll}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800003b5-002c-f000-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800003b5-002c-f000-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{**catchAll} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000040c-002c-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800003b5-002c-f000-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 80000196-000c-df00-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET.
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 800002d0-000c-f200-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 800002d0-000c-f200-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/health, request method: GET
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 80000196-000c-df00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/host-config, request method: GET
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 8000038b-002a-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 8000038b-002a-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/health, request method: GET
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 8000062e-002a-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 8000062e-002a-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/host-config, request method: GET
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 80000495-001c-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 80000495-001c-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/health, request method: GET
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 800002bf-001c-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 800002bf-001c-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/host-config, request method: GET
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 800001e4-000e-c100-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET.
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 80000020-0016-e700-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 800001e4-000e-c100-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/health, request method: GET
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 80000020-0016-e700-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/host-config, request method: GET
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 800002f6-002e-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 800002f6-002e-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/health, request method: GET
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 8000070c-002e-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 8000070c-002e-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/host-config, request method: GET
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 800003f2-0018-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET.
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 80000242-0024-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 800003f2-0018-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/health, request method: GET
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 80000242-0024-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/host-config, request method: GET
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 8000043c-0026-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET.
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 80000421-0026-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 8000043c-0026-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/health, request method: GET
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 80000421-0026-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/host-config, request method: GET
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 80000630-002a-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 80000630-002a-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/health, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/health, request method: GET
+warn: Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware[0]
+      requestId: 800003f4-0018-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 800003f4-0018-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /_stcore/host-config, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/_stcore/host-config, request method: GET
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...

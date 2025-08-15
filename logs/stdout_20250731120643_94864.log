@@ -1,0 +1,58 @@
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\LMS\Getway\
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000016c-0012-d100-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000016c-0012-d100-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /webshell.asp
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000016c-0012-d100-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000016c-0012-d100-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/webshell.asp
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000180-0010-e700-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000180-0010-e700-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /webshell
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000180-0010-e700-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000180-0010-e700-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/webshell
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800005ba-0006-cf00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800005ba-0006-cf00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /shell.asp
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800005ba-0006-cf00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800005ba-0006-cf00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/shell.asp
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800007ed-0008-9900-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800007ed-0008-9900-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /webshell.aspx
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800007ed-0008-9900-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800007ed-0008-9900-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/webshell.aspx
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000050a-0006-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000050a-0006-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /shell
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000050a-0006-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000050a-0006-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/shell
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000076d-0008-9e00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000076d-0008-9e00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /shell.aspx
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000076d-0008-9e00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000076d-0008-9e00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/shell.aspx
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...

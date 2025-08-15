@@ -1,0 +1,736 @@
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\LMS\Getway\
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000501-0006-cd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800002e2-002e-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800006f0-002e-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800006f0-002e-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000501-0006-cd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800002e2-002e-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800006f0-002e-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000501-0006-cd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800002e2-002e-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000501-0006-cd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800006f0-002e-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800002e2-002e-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000206-0028-ed00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800004ce-0028-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000206-0028-ed00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800004ce-0028-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000206-0028-ed00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800004ce-0028-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800004ce-0028-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000206-0028-ed00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000ade-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000ade-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000ade-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000053a-0002-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000053a-0002-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000053a-0002-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000ade-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000053a-0002-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800004d0-0028-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800004d0-0028-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800004d0-0028-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000208-0028-ed00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000208-0028-ed00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000208-0028-ed00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800004d0-0028-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000208-0028-ed00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000053c-0002-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000053c-0002-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000053c-0002-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000ae0-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000ae0-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000ae0-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000053c-0002-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000ae0-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000010c-0014-ec00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000010c-0014-ec00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000010c-0014-ec00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000003c-0014-ee00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000003c-0014-ee00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000003c-0014-ee00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000010c-0014-ec00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000003c-0014-ee00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000046b-001c-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000046b-001c-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000046b-001c-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800002a9-001c-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800002a9-001c-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800002a9-001c-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800002a9-001c-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000046b-001c-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000020a-0028-ed00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000020a-0028-ed00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000020a-0028-ed00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800004d2-0028-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800004d2-0028-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800004d2-0028-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000020a-0028-ed00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800004d2-0028-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000027d-0022-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000027d-0022-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000027d-0022-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000331-0022-f400-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000331-0022-f400-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000331-0022-f400-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000027d-0022-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000331-0022-f400-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000064-0001-fa00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000064-0001-fa00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000064-0001-fa00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000014f-0001-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000014f-0001-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000014f-0001-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000064-0001-fa00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000014f-0001-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000397-002c-f000-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 8000046d-001c-f600-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 8000046f-001c-f600-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800002ab-001c-fd00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 8000074e-000a-d200-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800001b1-000a-c900-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000416-0026-ff00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800001d4-0024-f500-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800001d6-0024-f500-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000228-0024-fd00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800000a3-0025-fa00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000418-0026-ff00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000210-001e-ef00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000024-001e-e400-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 8000003e-0014-ee00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 8000010e-0014-ec00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800000a5-0025-fa00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800004d4-0028-fb00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800004d6-0028-fb00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 8000020c-0028-ed00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000ae2-0002-c700-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000151-0001-f900-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800005e8-0018-f700-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 8000055a-001a-fd00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 8000041a-0026-ff00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800003fd-0026-fb00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000503-0006-cd00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000288-0000-da00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000399-002c-f000-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800006f2-002e-ff00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 8000055c-001a-fd00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800005fe-002a-fb00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000600-002a-fb00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800003ff-0026-fb00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000333-0022-f400-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000028-001e-e400-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800005ea-0018-f700-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800003d0-0018-fe00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 8000055e-001a-fd00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 8000058b-001a-f700-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 8000030e-0020-f300-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800003dc-0020-fa00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 8000058d-001a-f700-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000560-001a-fd00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800006f4-002e-ff00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800002e4-002e-f500-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000562-001a-fd00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 8000058f-001a-f700-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 8000039b-002c-f000-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000403-0026-fb00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000405-0026-fb00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 8000041c-0026-ff00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 8000041e-0026-ff00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000407-0026-fb00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 8000002a-001e-e400-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800003d2-0018-fe00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000602-002a-fb00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 8000035d-002a-f800-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 8000035f-002a-f800-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000604-002a-fb00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800003d4-0018-fe00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800005ec-0018-f700-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 8000020e-0028-ed00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800004d8-0028-fb00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000606-002a-fb00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000361-002a-f800-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800002e6-002e-f500-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: no request id, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 800006f6-002e-ff00-b63f-84710c7967bb, exception: System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.TrySetGlobalRequestId(HttpContext httpContext, IInternalConfiguration configuration)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000069-001b-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000041-001b-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000069-001b-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000041-001b-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000069-001b-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000041-001b-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000041-001b-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/host-config
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000069-001b-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/_stcore/health
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...

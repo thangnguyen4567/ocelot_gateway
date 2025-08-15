@@ -1,0 +1,107 @@
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\LMS\Getway\
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000951-002c-ef00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000951-002c-ef00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000951-002c-ef00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000951-002c-ef00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000ac3-0006-d000-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000ac3-0006-d000-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000ac3-0006-d000-b63f-84710c7967bb, previousRequestId: no previous request id, message: / route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000ac3-0006-d000-b63f-84710c7967bb, previousRequestId: no previous request id, message: 304 (Not Modified) status code, request uri: http://192.168.73.133:8501/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000ac5-0006-d000-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /_stcore/{everything}
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800006e8-0006-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /_stcore/{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000ac5-0006-d000-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/_stcore/host-config
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800006e8-0006-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000ac5-0006-d000-b63f-84710c7967bb, previousRequestId: no previous request id, message: /_stcore/{everything} route does not require user to be authorized
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800006e8-0006-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: /_stcore/{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000ac5-0006-d000-b63f-84710c7967bb, previousRequestId: no previous request id, message: 304 (Not Modified) status code, request uri: ws://192.168.73.133:8501/_stcore/host-config
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800006e8-0006-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: 304 (Not Modified) status code, request uri: ws://192.168.73.133:8501/_stcore/health
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: 80000953-002c-ef00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived', exception stack:    at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+         at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+         at Ocelot.WebSockets.Middleware.WebSocketsProxyMiddleware.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+         at Ocelot.WebSockets.Middleware.WebSocketsProxyMiddleware.Proxy(HttpContext context, String serverEndpoint)
+         at Ocelot.WebSockets.Middleware.WebSocketsProxyMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.DownstreamUrlCreator.Middleware.DownstreamUrlCreatorMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.LoadBalancer.Middleware.LoadBalancingMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.Request.Middleware.DownstreamRequestInitialiserMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.Multiplexer.MultiplexingMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 80000953-002c-ef00-b63f-84710c7967bb, exception: System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+         at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+         at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+         at Ocelot.WebSockets.Middleware.WebSocketsProxyMiddleware.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+         at Ocelot.WebSockets.Middleware.WebSocketsProxyMiddleware.Proxy(HttpContext context, String serverEndpoint)
+         at Ocelot.WebSockets.Middleware.WebSocketsProxyMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.DownstreamUrlCreator.Middleware.DownstreamUrlCreatorMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.LoadBalancer.Middleware.LoadBalancingMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.Request.Middleware.DownstreamRequestInitialiserMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.Multiplexer.MultiplexingMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+         at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+         at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+         at Ocelot.WebSockets.Middleware.WebSocketsProxyMiddleware.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+         at Ocelot.WebSockets.Middleware.WebSocketsProxyMiddleware.Proxy(HttpContext context, String serverEndpoint)
+         at Ocelot.WebSockets.Middleware.WebSocketsProxyMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.DownstreamUrlCreator.Middleware.DownstreamUrlCreatorMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.LoadBalancer.Middleware.LoadBalancingMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.Request.Middleware.DownstreamRequestInitialiserMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.Multiplexer.MultiplexingMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800006fa-0002-ca00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /_stcore/{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800006fa-0002-ca00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/_stcore/health
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800006cd-0002-c000-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /_stcore/{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800006cd-0002-c000-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800006fa-0002-ca00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /_stcore/{everything} route does not require user to be authorized
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800006cd-0002-c000-b63f-84710c7967bb, previousRequestId: no previous request id, message: /_stcore/{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800006fa-0002-ca00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 304 (Not Modified) status code, request uri: ws://192.168.73.133:8501/_stcore/health
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800006cd-0002-c000-b63f-84710c7967bb, previousRequestId: no previous request id, message: 304 (Not Modified) status code, request uri: ws://192.168.73.133:8501/_stcore/host-config
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800003f2-001c-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800003f2-001c-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /docs
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800003f2-001c-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800003f2-001c-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/docs
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000423-000e-e500-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000423-000e-e500-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /openapi.json
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000423-000e-e500-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000423-000e-e500-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/openapi.json
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...

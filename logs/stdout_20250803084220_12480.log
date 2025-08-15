@@ -1,0 +1,16 @@
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\LMS\Getway\
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 800005f7-0000-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnmappableRequestError Message: Error when parsing incoming request, exception: System.UriFormatException: Invalid URI: The hostname could not be parsed.
+         at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+         at System.Uri..ctor(String uriString)
+         at Ocelot.Request.Mapper.RequestMapper.MapUri(HttpRequest request)
+         at Ocelot.Request.Mapper.RequestMapper.Map(HttpRequest request, DownstreamRoute downstreamRoute) errors found in ResponderMiddleware. Setting error response for request path:/nice%20ports,/Trinity.txt.bak, request method: GET
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...

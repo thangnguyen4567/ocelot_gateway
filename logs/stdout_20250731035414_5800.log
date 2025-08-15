@@ -1,0 +1,600 @@
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\LMS\Getway\
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000e66-001a-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000e66-001a-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000e66-001a-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000151-002f-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000151-002f-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000151-002f-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 80000e66-001a-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (192.168.73.133:8000)
+       ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+         at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+         --- End of inner exception stack trace ---
+         at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+         at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+         at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+         at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/_stcore/host-config, request method: GET
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000b1c-002c-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000b1c-002c-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000b1c-002c-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 80000151-002f-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (192.168.73.133:8000)
+       ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+         at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+         --- End of inner exception stack trace ---
+         at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+         at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+         at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+         at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/_stcore/health, request method: GET
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 80000b1c-002c-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (192.168.73.133:8000)
+       ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+         at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+         --- End of inner exception stack trace ---
+         at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+         at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+         at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+         at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/_stcore/host-config, request method: GET
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000047c-0014-e800-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000047c-0014-e800-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000047c-0014-e800-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000047c-0014-e800-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000170-000e-e500-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000170-000e-e500-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000170-000e-e500-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000170-000e-e500-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000086e-0006-dd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000086e-0006-dd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000086e-0006-dd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800000c4-002b-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800000c4-002b-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800000c4-002b-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000b1e-002c-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000b1e-002c-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000b1e-002c-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000086e-0006-dd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000047e-0014-e800-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000047e-0014-e800-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000047e-0014-e800-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000047e-0014-e800-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000340-0010-e400-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000340-0010-e400-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000340-0010-e400-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000340-0010-e400-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000480-0014-e800-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000480-0014-e800-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000480-0014-e800-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000480-0014-e800-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000483-0004-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000483-0004-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000483-0004-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000483-0004-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000944-0000-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000944-0000-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000944-0000-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000944-0000-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000010a-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000010a-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000010a-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000010a-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000870-0006-dd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000870-0006-dd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000870-0006-dd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000870-0006-dd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000010c-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000010c-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000010c-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000010c-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000414-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000414-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000414-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000414-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000010e-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000010e-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000010e-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000010e-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000416-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000416-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000416-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000416-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800003cf-000a-cf00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800003cf-000a-cf00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800003cf-000a-cf00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800003cf-000a-cf00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000418-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000418-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000418-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000418-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000041a-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000041a-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000041a-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000041a-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000041c-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000041c-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000041c-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000041c-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800000a1-0009-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800000a1-0009-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800000a1-0009-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800000a1-0009-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000042e-0016-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000042e-0016-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000042e-0016-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000042e-0016-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000482-0014-e800-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000482-0014-e800-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000482-0014-e800-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000482-0014-e800-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 80000b1e-002c-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (192.168.73.133:8000)
+       ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+         at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+         --- End of inner exception stack trace ---
+         at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+         at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+         at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+         at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/_stcore/host-config, request method: GET
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 800000c4-002b-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (192.168.73.133:8000)
+       ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+         at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+         --- End of inner exception stack trace ---
+         at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+         at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+         at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+         at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/_stcore/health, request method: GET
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800005a4-002e-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800005a4-002e-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800005a4-002e-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800003cc-002e-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800003cc-002e-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800003cc-002e-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 800005a4-002e-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (192.168.73.133:8000)
+       ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+         at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+         --- End of inner exception stack trace ---
+         at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+         at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+         at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+         at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/_stcore/health, request method: GET
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 800003cc-002e-f500-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (192.168.73.133:8000)
+       ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+         at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+         --- End of inner exception stack trace ---
+         at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+         at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+         at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+         at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/_stcore/host-config, request method: GET
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000041e-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000041e-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000041e-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000041e-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000420-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000420-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000420-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000420-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000422-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000422-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000422-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000422-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000342-0010-e400-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000342-0010-e400-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000342-0010-e400-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000342-0010-e400-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000424-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000424-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000424-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000424-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800000d3-000f-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800000d3-000f-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800000d3-000f-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800000d3-000f-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000946-0000-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000946-0000-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000946-0000-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000946-0000-f600-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000484-0014-e800-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000484-0014-e800-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000484-0014-e800-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000484-0014-e800-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000344-0010-e400-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000344-0010-e400-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000344-0010-e400-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000344-0010-e400-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000346-0010-e400-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000346-0010-e400-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000346-0010-e400-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000346-0010-e400-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000485-0004-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000485-0004-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000485-0004-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000485-0004-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000426-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000426-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000426-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000426-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000428-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000428-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000428-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000428-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000042a-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000042a-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000042a-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000042a-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000042c-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000042c-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000042c-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000042c-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000042e-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000042e-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000042e-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000042e-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000430-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000430-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000430-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000430-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000432-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000432-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000432-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000432-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000063-0013-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000063-0013-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000063-0013-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000063-0013-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000434-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /langfuse/
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000434-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /langfuse
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000434-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: /langfuse/ route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000434-0012-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: 308 (Permanent Redirect) status code, request uri: http://192.168.73.133:3000/langfuse/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000129-0019-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000129-0019-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000129-0019-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000036-0019-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000036-0019-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000036-0019-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 80000129-0019-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (192.168.73.133:8000)
+       ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+         at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+         --- End of inner exception stack trace ---
+         at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+         at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+         at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+         at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/_stcore/health, request method: GET
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 80000036-0019-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (192.168.73.133:8000)
+       ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+         at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+         --- End of inner exception stack trace ---
+         at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+         at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+         at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+         at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/_stcore/host-config, request method: GET
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000e68-001a-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000caf-0018-f700-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000caf-0018-f700-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/health
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000e68-001a-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000caf-0018-f700-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000e68-001a-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 80000e68-001a-fd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (192.168.73.133:8000)
+       ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+         at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+         --- End of inner exception stack trace ---
+         at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+         at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+         at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+         at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/_stcore/host-config, request method: GET
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 80000caf-0018-f700-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: ConnectionToDownstreamServiceError Message: Error connecting to downstream service, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (192.168.73.133:8000)
+       ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+         at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+         --- End of inner exception stack trace ---
+         at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+         at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+         at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+         at Ocelot.Requester.HttpClientHttpRequester.GetResponse(HttpContext httpContext) errors found in ResponderMiddleware. Setting error response for request path:/_stcore/health, request method: GET
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...

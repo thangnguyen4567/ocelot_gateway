@@ -1,0 +1,89 @@
+{
+  "Routes": [
+	{
+		"DownstreamPathTemplate": "/_stcore/{everything}",
+		"DownstreamScheme": "ws",
+		"DownstreamHostAndPorts": [
+			{
+			  "Host": "192.168.73.133",
+			  "Port": 8501
+			}
+		],
+		"UpstreamPathTemplate": "/demo/_stcore/{everything}",
+		"UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ],	
+		"EnableWebSockets": true
+	},
+	{		
+		"DownstreamPathTemplate": "/{everything}",
+		"DownstreamScheme": "http",
+		"DownstreamHostAndPorts": [
+			{
+			  "Host": "192.168.73.133",
+			  "Port": 8501
+			}
+		],
+		"UpstreamPathTemplate": "/demo/{everything}",
+		"UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ],
+	},
+	{
+		"DownstreamPathTemplate": "/",
+		"DownstreamScheme": "http",
+		"DownstreamHostAndPorts": [
+			{
+			  "Host": "192.168.73.133",
+			  "Port": 8501
+			}
+		],
+		"UpstreamPathTemplate": "/demo/",
+		"UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ],
+	},
+	{		
+		"DownstreamPathTemplate": "/workflow/{everything}",
+		"DownstreamScheme": "http",
+		"DownstreamHostAndPorts": [
+			{
+			  "Host": "192.168.73.133",
+			  "Port": 80
+			}
+		],
+		"UpstreamPathTemplate": "/workflow/{everything}",
+		"UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ],
+	},
+	{		
+		"DownstreamPathTemplate": "/console/{everything}",
+		"DownstreamScheme": "http",
+		"DownstreamHostAndPorts": [
+			{
+			  "Host": "192.168.73.133",
+			  "Port": 80
+			}
+		],
+		"UpstreamPathTemplate": "/console/{everything}",
+		"UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ],
+	},
+	{
+		"DownstreamPathTemplate": "/",
+		"DownstreamScheme": "http",
+		"DownstreamHostAndPorts": [
+			{
+			  "Host": "192.168.73.133",
+			  "Port": 80
+			}
+		],
+		"UpstreamPathTemplate": "/workflow",
+		"UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ],
+	},
+	{
+		"DownstreamPathTemplate": "/{everything}",
+		"DownstreamScheme": "http",
+		"DownstreamHostAndPorts": [
+			{
+			  "Host": "192.168.73.133",
+			  "Port": 8000
+			}
+		],
+		"UpstreamPathTemplate": "/{everything}",
+		"UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ],
+	}
+  ]
+}

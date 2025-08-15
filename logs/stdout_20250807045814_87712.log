@@ -1,0 +1,403 @@
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\LMS\Getway\
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800003b7-0014-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /_stcore/{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800003b7-0014-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800003b7-0014-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: /_stcore/{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800003b7-0014-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: ws://192.168.73.133:8501/_stcore/health
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80001199-0004-d700-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80001199-0004-d700-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80001199-0004-d700-b63f-84710c7967bb, previousRequestId: no previous request id, message: / route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80001199-0004-d700-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000803-000c-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000803-000c-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/media/SourceSansVF-Upright.ttf.BsWL4Kly.woff2
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000803-000c-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000803-000c-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/media/SourceSansVF-Upright.ttf.BsWL4Kly.woff2
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000805-000c-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000805-000c-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/index.C1NIn1Y2.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000805-000c-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000805-000c-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/index.C1NIn1Y2.js
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000a22-0010-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /_stcore/{everything}
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800003d8-0010-db00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /_stcore/{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000a22-0010-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/_stcore/host-config
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800003d8-0010-db00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000a22-0010-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: /_stcore/{everything} route does not require user to be authorized
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800003d8-0010-db00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /_stcore/{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000a22-0010-d500-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: ws://192.168.73.133:8501/_stcore/host-config
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800003d8-0010-db00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 304 (Not Modified) status code, request uri: ws://192.168.73.133:8501/_stcore/health
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000807-000c-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000807-000c-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/index.DX-oiXlb.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000807-000c-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000807-000c-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/index.DX-oiXlb.js
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000765-000a-cb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000765-000a-cb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/index.CxGSemHL.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000765-000a-cb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800011c1-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800011c1-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/useBasicWidgetState.Ci89jaH5.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800011c1-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80001157-0006-df00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80001157-0006-df00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/FormClearHelper.D1M9GM_c.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80001157-0006-df00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800005c6-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800005c6-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/checkbox.DSDh78Xz.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800005c6-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000765-000a-cb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/index.CxGSemHL.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800011c1-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/useBasicWidgetState.Ci89jaH5.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80001157-0006-df00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/FormClearHelper.D1M9GM_c.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800005c6-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/checkbox.DSDh78Xz.js
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000809-000c-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000809-000c-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/media/MaterialSymbols-Rounded.DsbC8sYI.woff2
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000809-000c-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000809-000c-f900-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/media/MaterialSymbols-Rounded.DsbC8sYI.woff2
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000119f-0004-d700-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000119f-0004-d700-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/index.7hy6AeJ1.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000119f-0004-d700-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80001159-0006-df00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80001159-0006-df00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/FileHelper.kt7mhnu8.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80001159-0006-df00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800014ef-0006-d400-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800014ef-0006-d400-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/UploadFileInfo.0DCkpDDf.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800014ef-0006-d400-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800011c3-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800011c3-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/InputInstructions.DaZ89mzH.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800011c3-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800009c5-0006-ee00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800009c5-0006-ee00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/inputUtils.CQWz5UKz.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800009c5-0006-ee00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000053c-0004-f100-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000053c-0004-f100-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/ErrorOutline.esm.DitPpe1Y.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000053c-0004-f100-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800005c8-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800005c8-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/textarea.QKjxR64N.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800005c8-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800005b6-0002-cd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800005b6-0002-cd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/base-input.BJ4qsfSq.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800005b6-0002-cd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000119f-0004-d700-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/index.7hy6AeJ1.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80001159-0006-df00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/FileHelper.kt7mhnu8.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800014ef-0006-d400-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/UploadFileInfo.0DCkpDDf.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800011c3-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/InputInstructions.DaZ89mzH.js
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000403-0000-c600-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000403-0000-c600-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/favicon.png
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000403-0000-c600-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800009c5-0006-ee00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/inputUtils.CQWz5UKz.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000053c-0004-f100-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/ErrorOutline.esm.DitPpe1Y.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800005c8-0008-a900-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/textarea.QKjxR64N.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800005b6-0002-cd00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/base-input.BJ4qsfSq.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000403-0000-c600-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/favicon.png
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000615-0012-bc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000615-0012-bc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/index.Cns13qBb.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000615-0012-bc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000017a-0012-c800-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000017a-0012-c800-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/uniqueId.O0UbJ2Bu.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000017a-0012-c800-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000051c-0012-bf00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000051c-0012-bf00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/useOnInputChange.Cxh6ExEn.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000051c-0012-bf00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000615-0012-bc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/index.Cns13qBb.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000017a-0012-c800-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/uniqueId.O0UbJ2Bu.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000051c-0012-bf00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/useOnInputChange.Cxh6ExEn.js
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800009c7-0006-ee00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800009c7-0006-ee00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/index.B4CGJiBW.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800009c7-0006-ee00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800009c7-0006-ee00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/index.B4CGJiBW.js
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000511-002a-f200-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000511-002a-f200-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/index.xW7mVdI8.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000511-002a-f200-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000473-0018-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000473-0018-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/input.CxKZ5Wrc.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000473-0018-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000453-0018-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000453-0018-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/index.B8oW0ZTD.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000453-0018-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000511-002a-f200-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/index.xW7mVdI8.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000473-0018-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/input.CxKZ5Wrc.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000453-0018-fc00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/index.B8oW0ZTD.js
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80001285-001a-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80001285-001a-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80001285-001a-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: / route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80001285-001a-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000063-0013-e500-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /_stcore/{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000063-0013-e500-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/_stcore/health
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000063-0013-e500-b63f-84710c7967bb, previousRequestId: no previous request id, message: /_stcore/{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000138-0013-e100-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /_stcore/{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000138-0013-e100-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/_stcore/host-config
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000138-0013-e100-b63f-84710c7967bb, previousRequestId: no previous request id, message: /_stcore/{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000138-0013-e100-b63f-84710c7967bb, previousRequestId: no previous request id, message: 304 (Not Modified) status code, request uri: ws://192.168.73.133:8501/_stcore/host-config
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000063-0013-e500-b63f-84710c7967bb, previousRequestId: no previous request id, message: 304 (Not Modified) status code, request uri: ws://192.168.73.133:8501/_stcore/health
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80001531-0006-df00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80001531-0006-df00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/index.DX-oiXlb.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80001531-0006-df00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80001531-0006-df00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/index.DX-oiXlb.js
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80001533-0006-df00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80001533-0006-df00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/index.CxGSemHL.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80001533-0006-df00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000074d-0006-c900-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000074d-0006-c900-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/useBasicWidgetState.Ci89jaH5.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000074d-0006-c900-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000052f-0006-d100-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000052f-0006-d100-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/FormClearHelper.D1M9GM_c.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000052f-0006-d100-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000abc-0006-c500-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000abc-0006-c500-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/checkbox.DSDh78Xz.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000abc-0006-c500-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000967-0006-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000967-0006-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/index.7hy6AeJ1.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000967-0006-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000078e-0006-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000078e-0006-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/FileHelper.kt7mhnu8.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000078e-0006-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800000b0-0000-cb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800000b0-0000-cb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/UploadFileInfo.0DCkpDDf.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800000b0-0000-cb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000253-0000-c800-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000253-0000-c800-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/InputInstructions.DaZ89mzH.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000253-0000-c800-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800000c2-0001-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800000c2-0001-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/inputUtils.CQWz5UKz.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800000c2-0001-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800004f5-000a-bf00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800004f5-000a-bf00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/ErrorOutline.esm.DitPpe1Y.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800004f5-000a-bf00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000802-000a-cb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000802-000a-cb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/textarea.QKjxR64N.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000802-000a-cb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 800000c4-0009-f400-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 800000c4-0009-f400-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/js/base-input.BJ4qsfSq.js
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 800000c4-0009-f400-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80001533-0006-df00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/index.CxGSemHL.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000074d-0006-c900-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/useBasicWidgetState.Ci89jaH5.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000052f-0006-d100-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/FormClearHelper.D1M9GM_c.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000abc-0006-c500-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/checkbox.DSDh78Xz.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000967-0006-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/index.7hy6AeJ1.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000078e-0006-fb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/FileHelper.kt7mhnu8.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800000b0-0000-cb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/UploadFileInfo.0DCkpDDf.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000253-0000-c800-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/InputInstructions.DaZ89mzH.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800000c2-0001-f800-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/inputUtils.CQWz5UKz.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800004f5-000a-bf00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/ErrorOutline.esm.DitPpe1Y.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000802-000a-cb00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/textarea.QKjxR64N.js
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 800000c4-0009-f400-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/js/base-input.BJ4qsfSq.js
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 8000075e-0012-b600-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 8000075e-0012-b600-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /demo/static/media/MaterialSymbols-Rounded.DsbC8sYI.woff2
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 8000075e-0012-b600-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 8000075e-0012-b600-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8501/static/media/MaterialSymbols-Rounded.DsbC8sYI.woff2
+fail: Ocelot.Errors.Middleware.ExceptionHandlerMiddleware[0]
+      requestId: 8000015c-000a-c200-b63f-84710c7967bb, previousRequestId: no previous request id, message: Exception caught in global error handler, exception message: The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived', exception stack:    at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+         at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+         at Ocelot.WebSockets.Middleware.WebSocketsProxyMiddleware.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+         at Ocelot.WebSockets.Middleware.WebSocketsProxyMiddleware.Proxy(HttpContext context, String serverEndpoint)
+         at Ocelot.WebSockets.Middleware.WebSocketsProxyMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.DownstreamUrlCreator.Middleware.DownstreamUrlCreatorMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.LoadBalancer.Middleware.LoadBalancingMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.Request.Middleware.DownstreamRequestInitialiserMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.Multiplexer.MultiplexingMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext) RequestId: 8000015c-000a-c200-b63f-84710c7967bb, exception: System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+         at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+         at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+         at Ocelot.WebSockets.Middleware.WebSocketsProxyMiddleware.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+         at Ocelot.WebSockets.Middleware.WebSocketsProxyMiddleware.Proxy(HttpContext context, String serverEndpoint)
+         at Ocelot.WebSockets.Middleware.WebSocketsProxyMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.DownstreamUrlCreator.Middleware.DownstreamUrlCreatorMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.LoadBalancer.Middleware.LoadBalancingMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.Request.Middleware.DownstreamRequestInitialiserMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.Multiplexer.MultiplexingMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+      System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+         at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+         at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+         at Ocelot.WebSockets.Middleware.WebSocketsProxyMiddleware.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+         at Ocelot.WebSockets.Middleware.WebSocketsProxyMiddleware.Proxy(HttpContext context, String serverEndpoint)
+         at Ocelot.WebSockets.Middleware.WebSocketsProxyMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.DownstreamUrlCreator.Middleware.DownstreamUrlCreatorMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.LoadBalancer.Middleware.LoadBalancingMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.Request.Middleware.DownstreamRequestInitialiserMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.Multiplexer.MultiplexingMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware.Invoke(HttpContext httpContext)
+         at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext httpContext)
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...

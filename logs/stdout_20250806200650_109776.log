@@ -1,0 +1,32 @@
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\LMS\Getway\
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+warn: Ocelot.Responder.Middleware.ResponderMiddleware[0]
+      requestId: 800003ef-0004-e200-b63f-84710c7967bb, previousRequestId: no previous request id, message: Error Code: UnmappableRequestError Message: Error when parsing incoming request, exception: System.UriFormatException: Invalid URI: The hostname could not be parsed.
+         at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+         at System.Uri..ctor(String uriString)
+         at Ocelot.Request.Mapper.RequestMapper.MapUri(HttpRequest request)
+         at Ocelot.Request.Mapper.RequestMapper.Map(HttpRequest request, DownstreamRoute downstreamRoute) errors found in ResponderMiddleware. Setting error response for request path:/, request method: GET
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80000dce-0008-9e00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80000dce-0008-9e00-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80000dce-0008-9e00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+info: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80000dce-0008-9e00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://192.168.73.133:8000/
+info: Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware[0]
+      requestId: 80001003-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+info: Ocelot.Authentication.Middleware.AuthenticationMiddleware[0]
+      requestId: 80001003-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: No authentication needed for /favicon.ico
+info: Ocelot.Authorization.Middleware.AuthorizationMiddleware[0]
+      requestId: 80001003-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+warn: Ocelot.Requester.Middleware.HttpRequesterMiddleware[0]
+      requestId: 80001003-0002-c700-b63f-84710c7967bb, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://192.168.73.133:8000/favicon.ico
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
